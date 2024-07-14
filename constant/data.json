@@ -1,0 +1,61 @@
+{
+  "team": {
+    "heading": "Team",
+    "cards": [
+      {
+        "image": "/eg.jpg",
+        "heading": "Clinical psychologist:",
+        "content": [
+          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems) and helping people cope with and manage the associated challenges."
+        ]
+      },
+      {
+        "image": "/eg1.jpg",
+        "heading": "Clinical psychologist:",
+        "content": [
+          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems) and helping people cope with and manage the associated challenges."
+        ]
+      },
+      {
+        "image": "/eg.jpg",
+        "heading": "Clinical psychologist:",
+        "content": [
+          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems) and helping people cope with and manage the associated challenges."
+        ]
+      }
+    ]
+  },
+  "services": {
+    "heading": "Services",
+    "cards": [
+      {
+        "image": "/eg.jpg",
+        "name": "Clinical psychologist:"
+      },
+      {
+        "image": "/eg1.jpg",
+        "name": "Clinical psychologist:"
+      },
+      {
+        "image": "/eg.jpg",
+        "name": "Clinical psychologist:"
+      },
+      {
+        "image": "/eg1.jpg",
+        "name": "Clinical psychologist:"
+      },
+      {
+        "image": "/eg.jpg",
+        "name": "Clinical psychologist:"
+      },
+      {
+        "image": "/eg.jpg",
+        "name": "Clinical psychologist:"
+      },
+      {
+        "image": "/eg.jpg",
+        "name": "Clinical psychologist:"
+      }
+    ]
+  }
+}
