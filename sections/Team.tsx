@@ -4,8 +4,8 @@ import { team } from "@/constant/data.json";
 
 export const Team = () => {
   return (
-    <Container>
-      <div className="">
+    <Container id="team">
+      <div>
         <h2 className="text-3xl font-bold text-center">{team.heading}</h2>
         <div className="flex flex-col gap-[60px] md:gap-[150px] mt-[50px]">
           {team.cards.map((teammember, i) => (
@@ -16,5 +16,3 @@ export const Team = () => {
     </Container>
   );
 };
-
-// checking
