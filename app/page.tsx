@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/sections/Footer";
 import { Gallery } from "@/sections/Gallery";
 import { Home } from "@/sections/Home";
 import { Serivces } from "@/sections/Services";
@@ -13,6 +14,7 @@ export default function page() {
         <Team />
         <Serivces />
         <Gallery />
+        <Footer />
       </main>
     </>
   );

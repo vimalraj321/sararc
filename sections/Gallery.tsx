@@ -4,7 +4,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 import { Container } from "@/components/Container";
-
+import { gallery } from "@/constant/data.json";
+import { GalleryImage } from "@/components/GalleryImage";
 export const Gallery = () => {
   return (
     <Container id="gallery">
@@ -13,18 +14,9 @@ export const Gallery = () => {
       </div>
       <div className="mt-[50px]">
         <Carousel>
-          <div>
-            <Image src="/eg.jpg" alt="Hi" width={1240} height={1240} />
-          </div>
-          <div>
-            <Image src="/eg.jpg" alt="Hi" width={1240} height={1240} />
-          </div>
-          <div>
-            <Image src="/eg.jpg" alt="Hi" width={1240} height={1240} />
-          </div>
-          <div>
-            <Image src="/eg.jpg" alt="Hi" width={1240} height={1240} />
-          </div>
+          {gallery.map((src, index) => (
+            <GalleryImage src={src} key={index} />
+          ))}
         </Carousel>
       </div>
     </Container>

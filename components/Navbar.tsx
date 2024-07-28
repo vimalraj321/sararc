@@ -12,9 +12,9 @@ const navLinks = [
 export const Navbar = () => {
   const [mobile, setMobile] = useState(false);
   return (
-    <header className="w-full fixed bg-blue-300 md:shadow-lg px-4 border-b  ">
+    <header className="w-full fixed bg-blue-300 md:shadow-lg px-4 border-b z-[999999]">
       <nav className="flex max-w-[1200px] items-center mx-auto">
-        <div className="text-lg font-bold md:py-0 py-4">Saravan RC</div>
+        <div className="text-lg font-bold md:py-0 py-4">Saravana RC</div>
         <ul className="hidden md:px-2 ml-auto md:flex md:space-x-2">
           {navLinks.map(({ name, path }, i) => (
             <li key={i}>

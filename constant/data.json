@@ -3,24 +3,32 @@
     "heading": "Team",
     "cards": [
       {
-        "image": "/eg.jpg",
+        "image": "/team/image1.webp",
         "heading": "Clinical psychologist:",
         "content": [
-          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems) and helping people cope with and manage the associated challenges."
+          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems such as depression, anxiety, phobia etc) and helping people cope with and manage the associated challenges.",
+          "Clinical psychologist offers behavior therapy to reduce the unwanted behavior and enhance the deficit behavior. They provide counselling and psychotherapy to the various psychological problems"
         ]
       },
       {
-        "image": "/eg1.jpg",
-        "heading": "Clinical psychologist:",
+        "image": "/team/image2.webp",
+        "heading": "Speech therapist:",
         "content": [
-          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems) and helping people cope with and manage the associated challenges."
+          "Speech-language therapy addresses challenges with language and communication. It can help people with autism improve their verbal, nonverbal, and social communication. The overall goal is to help the person communicate in more useful and functional ways."
         ]
       },
       {
-        "image": "/eg.jpg",
-        "heading": "Clinical psychologist:",
+        "image": "/team/image3.webp",
+        "heading": "Special educator:",
         "content": [
-          "Clinical psychologist plays an important role diagnosing (autism spectrum disorder, learning disability and other psychological problems) and helping people cope with and manage the associated challenges."
+          "special educator is multifaceted and plays a pivotal role in providing inclusive and individualized education to students with disabilities or special needs."
+        ]
+      },
+      {
+        "image": "/team/image4.webp",
+        "heading": "Yoga therapist:",
+        "content": [
+          "enhances the mind and body coordination and enhances the motor coordination."
         ]
       }
     ]
@@ -28,34 +36,57 @@
   "services": {
     "heading": "Services",
     "cards": [
-      {
-        "image": "/eg.jpg",
-        "name": "Clinical psychologist:"
-      },
-      {
-        "image": "/eg1.jpg",
-        "name": "Clinical psychologist:"
-      },
-      {
-        "image": "/eg.jpg",
-        "name": "Clinical psychologist:"
-      },
-      {
-        "image": "/eg1.jpg",
-        "name": "Clinical psychologist:"
-      },
-      {
-        "image": "/eg.jpg",
-        "name": "Clinical psychologist:"
-      },
-      {
-        "image": "/eg.jpg",
-        "name": "Clinical psychologist:"
-      },
-      {
-        "image": "/eg.jpg",
-        "name": "Clinical psychologist:"
-      }
+      [
+        {
+          "name": "Counselling and psychotherapy"
+        },
+        {
+          "name": "Psychological assessment (IQ, academic (scholastic), personality and other psychological problems)"
+        },
+        {
+          "name": "Behaviour therapy"
+        },
+        {
+          "name": "Applied behavioral analysis"
+        },
+        {
+          "name": "Speech therapy"
+        },
+        {
+          "name": "Communication therapy"
+        }
+      ],
+      [
+        {
+          "name": "Sensory stimulation"
+        },
+        {
+          "name": "Sensory integration therapy"
+        },
+        {
+          "name": "Remedial (scholastic) training"
+        },
+        {
+          "name": "Play therapy"
+        },
+        {
+          "name": "Life skills"
+        },
+        {
+          "name": "Social skill"
+        },
+        {
+          "name": "Yoga"
+        }
+      ]
     ]
-  }
+  },
+  "gallery": [
+    "/gallery/image8.jpeg",
+    "/gallery/image3.jpeg",
+    "/gallery/image4.jpeg",
+    "/gallery/image5.jpeg",
+    "/gallery/image6.jpeg",
+    "/gallery/image7.jpeg"
+  ]
 }
