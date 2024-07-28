@@ -10,7 +10,7 @@ export const Footer = () => (
       <div className="flex md:flex-row flex-col">
         <div className="w-full">
           <h2 className="text-lg text-center md:text-start font-bold md:py-0 py-4">
-            Saravana RC
+            Saravana Rehab
           </h2>
         </div>
         <div className="w-full mt-3 md:mt-0">
