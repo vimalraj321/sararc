@@ -7,15 +7,15 @@ import { Team } from "@/sections/Team";
 
 export default function page() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <main className="">
+      <main className="flex-1">
         <Home />
         <Team />
         <Serivces />
         <Gallery />
-        <Footer />
       </main>
-    </>
+      <Footer />
+    </div>
   );
 }
